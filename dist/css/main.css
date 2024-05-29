@@ -139,16 +139,15 @@ body {
       outline: none;
       transition: box-shadow 0.15s ease-in-out; }
       .content-right .form .form-sign-in .form-label .form-setting-input:focus {
-        border-color: #0053b3;
-        box-shadow: 0 0 0 1px #0053b340; }
-    .content-right .form .form-sign-in div:nth-child(3) {
+        border-color: #0053b3; }
+    .content-right .form .form-sign-in .forgot {
+      display: block;
       font-size: 14px;
       text-decoration: none;
-      cursor: pointer;
       color: #0053b3;
       background-color: transparent;
       margin-bottom: 20px; }
-      .content-right .form .form-sign-in div:nth-child(3):hover {
+      .content-right .form .form-sign-in .forgot:hover {
         text-decoration: underline;
         color: #0b003e; }
     .content-right .form .form-sign-in div:nth-child(5) {
@@ -156,7 +155,7 @@ body {
       font-size: 0.9rem; }
     .content-right .form .form-sign-in .sign-up-below {
       font-size: 0.9rem;
-      margin-top: 1.5rem; }
+      margin-top: 2.5rem; }
       .content-right .form .form-sign-in .sign-up-below a {
         text-decoration: none;
         color: #0053b3;

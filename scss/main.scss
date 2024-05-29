@@ -50,7 +50,7 @@ body {
         & .logo {
             height: 2.7rem;
             margin-bottom: 1.8rem;
-            
+
         }
 
         & .form {
@@ -108,15 +108,15 @@ body {
 
                         &:focus {
                             border-color: #0053b3;
-                            box-shadow: 0 0 0 1px #0053b340;
+                            // box-shadow: 0 0 0 1px #0053b340;
                         }
                     }
                 }
 
-                & div:nth-child(3) {
+                & .forgot {
+                    display: block;
                     font-size: 14px;
                     text-decoration: none;
-                    cursor: pointer;
                     color: #0053b3;
                     background-color: transparent;
                     margin-bottom: 20px;
@@ -129,12 +129,12 @@ body {
 
                 & div:nth-child(5) {
                     margin: 14px 0;
-                    font-size:0.9rem;
+                    font-size: 0.9rem;
                 }
 
                 & .sign-up-below {
                     font-size: 0.9rem;
-                    margin-top: 1.5rem;
+                    margin-top: 2.5rem;
 
                     & a {
                         text-decoration: none;
